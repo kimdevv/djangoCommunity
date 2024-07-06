@@ -31,7 +31,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['43.202.229.175', 'kimdev.xyz', '127.0.0.1']
+ALLOWED_HOSTS = ['13.125.116.17', 'kimdev.xyz', '127.0.0.1']
 AUTH_USER_MODEL = 'member.CustomUser'
 
 # Application definition

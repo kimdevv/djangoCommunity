@@ -28,6 +28,7 @@ class Login(APIView):
         
         # CustomUser을 상속받아서 만들면 check_password() 함수가 제공된다
         if not user.check_password(password):
+            print(user.check_password(password))
             return Response({
                 "message": "비밀번호가 틀렸습니다."
             }, status=status.HTTP_400_BAD_REQUEST)
